@@ -1,0 +1,120 @@
+*{box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.items{
+font-family: Verdana; 
+background-color: rgb(21 114 147);
+justify-content: space-between;
+display: flex;
+color: white;
+}
+.items .items_first{
+    /* width: ; */
+    margin-left: 180px;
+}
+
+a{
+    color: white;
+    text-decoration: dotted;
+    font-weight: bold;
+}
+
+.items .items_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 4px;
+    width:500px;
+}
+#help {
+    height: 22px;
+    display: inline-block;
+    width: 20px;
+    vertical-align: middle;
+}
+
+   
+div #dp{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 15%;
+  /* border-radius: 150px; */
+    
+    /* margin-left: 890px; margin-top: 30px; border-radius: 150px; */
+}
+section .jt {color: rgb(21 114 147);
+text-align: center;}
+section img
+section p.jt{
+    color:black;
+}
+
+
+header h1{color:white;
+}
+body .first{margin-left: 850px; font-size: medium;}
+
+section .down{background-color:rgb(21 114 147);
+color: white;
+display: flex;
+justify-content: space-between;
+justify-content: space-around;
+padding: 10ch 5ch 10ch 5ch ;
+font-size: 30px;
+text-decoration: solid;
+}
+
+section .down .ten .second{font-size: 25px;}
+body{font-family: Helvetica;}
+
+/* The footer*/
+footer{
+ padding: 60px 50px 60px 50px;
+}
+footer .desc{
+    display:flex;
+    justify-content: space-between;
+    padding:12px;
+    color: white;
+    text-align: center;
+    font-weight: 100px;
+}
+footer h1{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: rgb(71 154 171);
+    padding: 100px 0px 100px 70px;
+    font-weight: bold;
+    font-size: 40px;
+}
+footer .desc .desc_item{
+    padding: 25px 40px 25px 40px;
+    margin: 10px 100px 10px 100px;
+    width:27%;
+    background-color:rgb(50, 74, 80);
+    border-radius: 15px;
+    justify-content: space-around;
+    font-size: 30px;    
+}
+/* footer .desc .desc_item:hover {
+ color:black;
+ background-color: rgba(0, 131, 143, .01);
+ box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+} */
+
+footer .desc .desc_item h2{
+    color:white ;
+    font-weight: 200;
+}
+
+div .finishing{
+    font-family: Verdana; 
+    background-color: rgb(21 114 147);
+    text-align: center;
+    color: white;
+    padding: 20px 1px 30px 30px;
+}
